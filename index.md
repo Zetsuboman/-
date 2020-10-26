@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+<form action="https://shopee.tw/search?keyword"method="GET">
+<input type="text" name="keyword">
+<input type="submit" value="進來查">
+</form>
+<br>
+<form action="https://shopee.tw/search"method="GET">
+<select name="keyword">
+<option value="懶人沙發">懶人沙發</option>
+<option value="造型悠遊卡"selected>造型悠遊卡</option>
+<option value="碎花洋裝">碎花洋裝</option>
+<option value="電動腳踏車">電動腳踏車</option>
+<option value="浴室置物架">浴室置物架</option>
+</select>
+<input type="submit" value="給我用選單">
+</form>
+<form action="https://shopee.tw/search"method="GET">
+<input type="text"name="keyword">
+<input type="hidden"name="cat"value="DPA">
+<input type="submit"value="搜尋">
+</foem>
 
-You can use the [editor on GitHub](https://github.com/Zetsuboman/-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<br>
+日期<input type="date"name="date">
+電子信箱<input type="url"name="url">
+電話<input type="tel"name="tel">
+時間<input type="time"name="time">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<br>
 
-### Markdown
+<input type="datetime-local" min="2020-10-01T00:00" max="2020s-10-31T00:00">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Zetsuboman/-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<input type="tel" pattern="[0][9][0-9]{8}" placeholder="09xxxxxxxx">
+<input type="url" placeholder="https://shopee.tw/">
